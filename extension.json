@@ -1,0 +1,22 @@
+{
+  "id": "nolviko/totp",
+  "name": "Two-step verification (TOTP)",
+  "version": "1.0.2",
+  "api": 1,
+  "engine": "^1.0",
+  "php": "~8.4.27 || ~8.5.12",
+  "license": "Apache-2.0",
+  "providers": [
+    "src/Provider.php"
+  ],
+  "permissions": [
+    "nolviko.totp.use"
+  ],
+  "translations": [
+    "en",
+    "tr"
+  ],
+  "routes": [
+    "nolviko.totp.setup"
+  ]
+}
