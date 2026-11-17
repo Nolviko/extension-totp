@@ -25,7 +25,7 @@ off, members sign in with their password alone and the admin dashboard says how 
 3. Install and enable it. Updates work the same way: upload the newer ZIP; the forum turns the extension off,
    replaces its files and turns it on again. Your settings and data are kept.
 
-Requires [Nolviko](https://github.com/Nolviko/nolviko) 0.1.0-beta.3 or newer (earlier versions of this extension work with 0.1.0-beta.2). Disabling the extension keeps its data.
+Requires [Nolviko](https://github.com/Nolviko/nolviko) 0.1.0-beta.4 or newer (older versions of this package work with earlier betas). Updates appear in the admin panel. Disabling the extension keeps its data.
 
 ## Development
 
