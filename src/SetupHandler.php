@@ -25,7 +25,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Throwable;
 
 /**
- * `/extensions/nolviko/totp/setup`: a member turns the authenticator app on (scan, confirm with a first code,
+ * `/ext/nolviko/totp/setup`: a member turns the authenticator app on (scan, confirm with a first code,
  * receive recovery codes once), gets new recovery codes (with a code) or turns it off (password and code).
  * Every code check goes through core (throttled per member like the sign-in step). Page text is translated
  * and every value is escaped here, because the page body reaches the template as SafeHtml.

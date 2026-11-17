@@ -41,7 +41,7 @@ return new class implements ExtensionProvider {
         $context->route(
             new RouteDefinition(
                 'nolviko.totp.setup',
-                '/extensions/nolviko/totp/setup',
+                '/ext/nolviko/totp/setup',
                 ['GET', 'POST'],
                 requiresHttps: true,
             ),
