@@ -1,10 +1,10 @@
 {
   "id": "nolviko/totp",
   "name": "Two-step verification (TOTP)",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "api": 1,
   "engine": "^1.2",
-  "php": "~8.4.27 || ~8.5.12",
+  "php": "~8.2.35 || ~8.3.36 || ~8.4.27 || ~8.5.12",
   "license": "Apache-2.0",
   "providers": [
     "src/Provider.php"
